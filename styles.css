@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#Title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid green;
+}
+
+.sameline {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#item {
+    margin-right: 10px;
+}
+
+
+.horizantal {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+ 
+.indv {
+    flex: 1;
+    border: 1px solid green;
+    background-color: blue;
+}
